@@ -16,6 +16,7 @@ const teacher3: Teacher = {
   contract: false,
 };
 
+"interface Director extends Teacher"
 console.log(teacher3);
 
 // Define the Teacher interface

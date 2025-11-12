@@ -47,7 +47,7 @@ function createEmployee(salary: number | string): Director | Teacher {
   const isLowSalary = typeof salary === "number" && salary < 500;
   return isLowSalary ? new Teacher() : new Director();
 }
-
+"todayClass:Subjects"
 type Subjects = 'Math' | 'History';
 
 function teachClass(todayClass: Subjects): string {

@@ -45,6 +45,7 @@ const director1: Directors = {
 
 console.log(director1);
 
+"function printTeacher("
 // Define the interface for the input object
 interface Teacher {
   firstName: string;

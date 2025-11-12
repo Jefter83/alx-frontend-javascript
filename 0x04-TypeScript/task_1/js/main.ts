@@ -44,3 +44,6 @@ const director1: Directors = {
 };
 
 console.log(director1);
+
+console.log(printTeacher("Jefter", "Adinkrah")); // Output: John Doe
+

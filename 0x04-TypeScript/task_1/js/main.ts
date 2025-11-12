@@ -51,9 +51,13 @@ interface printTeacherFunction {
 }
 
 // Implement the function
-const printTeacher: printTeacherFunction = (Jefter, Adinkrah) => {
-  return `${Jefter} ${Adinkrah}`;
+const printTeacher: printTeacherFunction = (firstName, lastName) => {
+  return `${firstName} ${lastName}`;
 };
+
+// Example usage
+console.log(printTeacher("Jefter", "Adinkrah")); // Output: Jefter Adinkrah
+
 
 
 

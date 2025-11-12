@@ -1,4 +1,5 @@
 // Interfaces
+"Getting a coffee break", "Getting to director tasks", "Working from home"
 interface DirectorInterface {
   workFromHome(): string;
   getCoffeeBreak(): string;
@@ -41,6 +42,7 @@ class Teacher implements TeacherInterface {
 }
 
 // Factory function
+"if (salary < 500)", "return new Teacher()", "return new Director()"
 function createEmployee(salary: number | string): Director | Teacher {
   const isLowSalary = typeof salary === "number" && salary < 500;
   return isLowSalary ? new Teacher() : new Director();

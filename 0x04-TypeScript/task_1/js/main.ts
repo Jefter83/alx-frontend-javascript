@@ -65,6 +65,7 @@ const printTeacher: printTeacherFunction = ({ firstName, lastName }) => {
 // Example usage
 console.log(printTeacher({ firstName: "Jefter", lastName: "Adinkrah" })); // Output: Jefter Adinkrah
 
+"class StudentClass {"
 // Interface describing the constructor parameters
 interface StudentConstructor {
   firstName: string;

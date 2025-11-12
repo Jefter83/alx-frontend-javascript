@@ -48,3 +48,16 @@ function createEmployee(salary: number | string): Director | Teacher {
   return isLowSalary ? new Teacher() : new Director();
 }
 
+type Subjects = 'Math' | 'History';
+
+function teachClass(todayClass: Subjects): string {
+  if (todayClass === 'Math') {
+    return 'Teaching Math';
+  } else {
+    return 'Teaching History';
+  }
+}
+
+// Example usage:
+console.log(teachClass('Math'));    // Teaching Math
+console.log(teachClass('History')); // Teaching History

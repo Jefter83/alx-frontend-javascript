@@ -45,5 +45,15 @@ const director1: Directors = {
 
 console.log(director1);
 
-console.log(printTeacher("Jefter", "Adinkrah")); // Output: John Doe
+// Define the interface for the function
+interface printTeacherFunction {
+  (firstName: string, lastName: string): string;
+}
+
+// Implement the function
+const printTeacher: printTeacherFunction = (Jefter, Adinkrah) => {
+  return `${Jefter} ${Adinkrah}`;
+};
+
+
 
